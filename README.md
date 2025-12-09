@@ -58,4 +58,3 @@ http://localhost:5173 [This url is your local host after running locally]
 
 ---
 Portfolio created as part of MET CS601 to apply front-end development, responsive layout, and web application concepts.
-```
