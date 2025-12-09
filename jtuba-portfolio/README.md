@@ -38,9 +38,10 @@ npm run dev
 Open:
 
 ```
-http://localhost:5173
+http://localhost:5173 [This url is your local host after running locally]
 ```
 
+🚀 Hosted In: https://jannatultuba.github.io/jtuba-portfolio/
 ---
 
 ## 🌐 Deployment

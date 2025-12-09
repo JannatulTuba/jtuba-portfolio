@@ -10,7 +10,8 @@ export const About: React.FC = () => {
             I am a Senior Software Tester with experience in both manual and
             automation testing. I currently work on web and API testing using
             Java-based automation frameworks, BDD with Cucumber, and tools like
-            Postman, SQL, and Jira in Agile-Scrum environments.
+            Postman, SQL, and Jira in Agile-Scrum environments. I am curretly doing 
+            MS in Software Development at BU.
           </p>
           <p>
             I completed my Bachelor of Science in Computer Science and

@@ -32,8 +32,14 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
+
+      {/* Header */}
       <header className="header">
-        <div className="logo">JT<span className="accent">.</span></div>
+        <div className="logo">
+          JT<span className="accent">.</span>
+        </div>
+
+        {/* NAV updated to real semantic <nav> */}
         <nav className="nav">
           <button onClick={() => setCurrentPage("home")}>Home</button>
           <button onClick={() => setCurrentPage("about")}>About</button>
@@ -44,15 +50,16 @@ const App: React.FC = () => {
         </nav>
       </header>
 
+      {/* Main Content */}
       <main className="main">
         {renderPage()}
-
-       
       </main>
 
+      {/* Footer */}
       <footer className="footer">
         <p>© {new Date().getFullYear()} Jannatul Tuba. All rights reserved.</p>
       </footer>
+
     </div>
   );
 };
