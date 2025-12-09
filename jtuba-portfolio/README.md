@@ -1,8 +1,4 @@
 ---
-
-# 📄 **README.md (Short Version)**
-
-````md
 # Jannatul Tuba – Portfolio Website  
 ### MET CS601 Term Project
 
@@ -28,11 +24,11 @@ This is my final project for BU MET CS601. It is a responsive multi-page portfol
 - Vite build tool  
 - GitHub REST API  
 - HTML5 Canvas  
-- Netlify / GitHub Pages for hosting  
+- GitHub Pages for hosting  
 
 ---
 
-## 🚀 Run Locally
+## 🚀 Run Locally insdie jtuba-portfolio folder
 
 ```bash
 npm install
@@ -50,18 +46,15 @@ http://localhost:5173
 ## 🌐 Deployment
 
 * Build: `npm run build`
-* Deploy `dist/` folder to **Netlify** or **GitHub Pages**
+* Deploy  **GitHub Pages**
 
 ---
 
 ## 📬 Contact
 
-**GitHub:** [https://github.com/YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-**Email:** [youremail@example.com](mailto:youremail@example.com)
+**GitHub:** [https://github.com/JannatulTuba](https://github.com/JannatulTuba)
+**Email:** [jtuba@bu.edu](mailto:jtuba@bu.edu)
 
 ---
-
 Portfolio created as part of MET CS601 to apply front-end development, responsive layout, and web application concepts.
-
 ```
-
