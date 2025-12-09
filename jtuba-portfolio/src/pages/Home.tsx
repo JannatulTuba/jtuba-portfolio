@@ -9,13 +9,19 @@ export const Home: React.FC = () => {
             Hello, I’m <span className="accent">Jannatul Tuba</span>
           </h1>
           <p className="hero-subtitle">
-            QA Engineer • Software Developer • Graduate Student
+            Senior Software Tester · Automation Engineer · CS Graduate
           </p>
           <p>
-            I work as a QA engineer and I am also studying Software Development.
-            I like finding bugs, improving quality, and building useful tools
-            with code. This portfolio shows my projects, skills, and learning
-            journey.
+            I work as a Senior Software Tester, focusing on web, API, and
+            automation testing in Agile teams. My background in Computer
+            Science and Engineering and hands-on experience with Java,
+            Selenium/Selenide, and BDD frameworks help me build reliable,
+            testable software and guide QA improvements.
+          </p>
+          <p>
+            This portfolio highlights my skills, key projects, and the journey
+            that took me from university projects to leading QA efforts in
+            production systems.
           </p>
         </div>
       </div>
