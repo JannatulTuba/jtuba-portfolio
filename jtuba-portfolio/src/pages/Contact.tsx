@@ -86,7 +86,7 @@ export const Contact: React.FC = () => {
         {error && <p className="error-text">{error}</p>}
         {submitted && !error && (
           <p className="success-text">
-            Thank you! Your message has been recorded (you can see it in the
+            Thank you! Your message has been recorded ( can see it in the
             browser console while developing).
           </p>
         )}

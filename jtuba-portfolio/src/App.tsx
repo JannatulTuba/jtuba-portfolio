@@ -48,13 +48,7 @@ const App: React.FC = () => {
       <main className="main">
         {renderPage()}
 
-        <section className="timeline-section">
-          <h2>Learning Journey Timeline</h2>
-          <p className="timeline-description">
-            A visual representation of my key milestones using HTML5 Canvas.
-          </p>
-          <PortfolioTimeline />
-        </section>
+       
       </main>
 
       <footer className="footer">
