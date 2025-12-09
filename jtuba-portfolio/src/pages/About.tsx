@@ -7,31 +7,39 @@ export const About: React.FC = () => {
       <div className="two-column">
         <div>
           <p>
-            I am a QA engineer with experience testing web applications and
-            automating tests. I am also a graduate student in Software
-            Development, which helps me understand both the testing and coding
-            side of software.
+            I am a Senior Software Tester with experience in both manual and
+            automation testing. I currently work on web and API testing using
+            Java-based automation frameworks, BDD with Cucumber, and tools like
+            Postman, SQL, and Jira in Agile-Scrum environments.
           </p>
           <p>
-            I enjoy turning real problems into simple, clear solutions. I like
-            planning, organizing, and breaking big goals into small steps that I
-            can complete one by one.
+            I completed my Bachelor of Science in Computer Science and
+            Engineering from North South University, where I also took part in
+            research and project work related to OCR, remote sensing, and web
+            development. Over time, I moved from student projects to
+            professional QA roles where I focus on building maintainable
+            regression suites, improving QA processes, and mentoring other
+            testers.
           </p>
         </div>
         <div>
           <ul className="info-list">
             <li>
-              <strong>Location:</strong> United States
+              <strong>Current Role:</strong> Senior Software Tester
             </li>
             <li>
-              <strong>Focus Areas:</strong> QA Automation, Web Apps, Databases
+              <strong>Field of Expertise:</strong> Manual & Automation Testing,
+              Web & API testing
             </li>
             <li>
-              <strong>Languages:</strong> JavaScript, TypeScript, Java, SQL
+              <strong>Education:</strong> BSc in CSE, North South University
             </li>
             <li>
-              <strong>Interests:</strong> Learning new tools, building planners,
-              and helping others learn.
+              <strong>Tools I Use Daily:</strong> Java, Selenide/Selenium,
+              JUnit/TestNG, Cucumber, Maven, Postman, SQL, Jira, Zephyr
+            </li>
+            <li>
+              <strong>Languages:</strong> English, Bangla
             </li>
           </ul>
         </div>
