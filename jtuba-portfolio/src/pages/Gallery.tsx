@@ -1,41 +1,37 @@
 import React from "react";
 
-type GalleryItem = {
-  title: string;
-  description: string;
-};
-
-const galleryItems: GalleryItem[] = [
-  {
-    title: "Study Setup",
-    description: "My usual desk setup for working and studying.",
-  },
-  {
-    title: "Planning Board",
-    description: "High-level planning notes for projects and test strategy.",
-  },
-  {
-    title: "Walk and Reset",
-    description: "Short walks I take to clear my mind and reduce stress.",
-  },
-];
+import studyImg from "../images/study.jpeg";
+import planningImg from "../images/planning.jpeg";
+import profileImg from "../images/profile.png";
+import walkImg from "../images/walk.jpeg";
 
 export const Gallery: React.FC = () => {
   return (
     <section className="page">
       <h2>Gallery</h2>
-      <p>
-        These cards represent moments from my daily life. In a full version, I
-        could replace them with real photos that match these descriptions.
-      </p>
 
       <div className="gallery-grid">
-        {galleryItems.map((item) => (
-          <article key={item.title} className="gallery-card">
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
-          </article>
-        ))}
+
+        <article className="gallery-card">
+          <img src={studyImg} alt="Jannatul Tuba" className="gallery-image" />
+          <h3>Study Time</h3>
+        </article>
+
+        <article className="gallery-card">
+          <img src={planningImg} alt="Planning Board" className="gallery-image" />
+          <h3>Planning Board</h3>
+        </article>
+
+        <article className="gallery-card">
+          <img src={profileImg} alt="Profile Picture" className="gallery-image" />
+          <h3>Profile Picture</h3>
+        </article>
+
+        <article className="gallery-card">
+          <img src={walkImg} alt="Nature Walk" className="gallery-image" />
+          <h3>Nature Walk</h3>
+        </article>
+
       </div>
     </section>
   );

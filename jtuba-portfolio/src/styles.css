@@ -310,3 +310,12 @@ body {
   font-size: 0.85rem;
   color: var(--muted);
 }
+
+.gallery-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  margin-bottom: 0.75rem;
+}
