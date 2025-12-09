@@ -1,5 +1,3 @@
-Sure! Here is a **short, clean, professional README** for your CS601 project — perfect for GitHub.
-
 ---
 
 # 📄 **README.md (Short Version)**
