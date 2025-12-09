@@ -5,7 +5,6 @@ import { Skills } from "./pages/Skills";
 import { Projects } from "./pages/Projects";
 import { Gallery } from "./pages/Gallery";
 import { Contact } from "./pages/Contact";
-import { PortfolioTimeline } from "./components/PortfolioTimeline";
 
 type Page = "home" | "about" | "skills" | "projects" | "gallery" | "contact";
 
